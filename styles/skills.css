@@ -1,0 +1,42 @@
+/* Skills section */
+#skills {
+    margin: 0;
+  }
+  
+  #skillset {
+    margin: 2rem 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+  }
+  
+  #skillset h4 {
+    font-size: 1.2rem;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 2px solid #7a7878;
+    color: #fff;
+    cursor: pointer;
+    @media (max-width: 600px) {
+      font-size: 1rem;
+      padding: 6px 11px;
+    }
+  }
+  
+  #skills h4:hover {
+    animation: glow 1s infinite alternate;
+  }
+  
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 5px #7a7878;
+    }
+    100% {
+      box-shadow: 0 0 15px #7a7878, 0 0 25px #7a7878, 0 0 35px #7a7878;
+    }
+  }
+  

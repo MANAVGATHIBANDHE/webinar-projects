@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/main_illustration.svg">
+    <link rel="stylesheet" href="./styles/index.css" text="text/css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Webinar Projects</title>
@@ -8,64 +10,127 @@
 <body>
     <div>
         <nav>
-            <img src="./logo.svg" alt="Logo if the website">
-            <ul>
-                <li>About</li>
-                <li>Work</li>
-                <li>Skills</li>
-                <li>Contact</li>
-            </ul>
+            <img src="./assets/logo.svg" alt="logo">
+            <ul> 
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#work">Work</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#footer">Social</a></li>
+            </ul>     
         </nav>
-        <header>
-            <div class="header-text">
-                <h5>Full Stack Developer</h5>
-                <h1>I'm Great</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et quisquam a ab eaque. Possimus autem rem placeat natus magnam ut dolores iste est accusamus nam repellendus sit, et exercitationem vel!</p>
-                <button>Embark Now</button>
-                <button>See My Work</button>
-            </div>
-                <div class="header-img">
-                    <img src="./main_illustration.svg" alt="this is my main illusturation.">
+    </div>
+    <div>      
+        <header id="home"><br><br><br><br><hr>
+            <div id="hero">
+                <div class="illustration">
+                    <img src="./assets/main_illustration.svg" alt="">
                 </div>
+                <div class="hero-text">
+                    <h5>Full Stack Developer</h5>
+                    <h1>I'm Manav</h1>
+                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et quisquam a ab eaque. Possimus autem rem placeat natus magnam ut dolores iste est accusamus nam repellendus sit, et exercitationem vel!</h3>
+                    <div class="hero-buttons">
+                        <a href="#contact"><button>Embark Now</button></a>
+                        <a href="#work"><button class="secondary">See my work</button></a>
+                    </div>
+                </div>
+            </div>
         </header>
-        <section id="About">
-            <h1>Heloo I'm Manav Gathibandhe</h1>
+        <section id="about"><br><br><br><hr>
+            <h1>Hello I'm Manav Gathibandhe</h1>
             <div class="about-box">
-                <img src="./profile.svg" alt="">   
+                <img src="./assets/profile.svg" alt="">   
             </div>
             <div class="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eius tenetur possimus consequuntur voluptas asperiores maiores perferendis numquam velit, natus, expedita dolore quod enim rerum ipsam, itaque alias distinctio quidem?
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet commodi repellendus itaque accusantium minima tenetur eius quam non molestiae asperiores iste excepturi illo totam ducimus delectus, laboriosam neque reiciendis repudiandae?  ipsum dolor sit amet consectetur adipisicing elit. Esse eius tenetur possimus consequuntur voluptas asperiores maiores perferendis numquam velit, natus, expedita dolore quod enim rerum ipsam, itaque alias distinctio quidem?
+                    </p>
+                    <a href="#footer"><button class="tertiary">Connect with Me!</button></a>
                 </div>
         </section>
-        <section id="work">
+        <section id="work"><br><br><br><hr>
             <h5>Full Stack Developer</h5>
             <h1>Protfolio Showcase</h1>
             <div class="project-container">
                 <div class="project-card">
-                    <img src="./space_header.svg" alt="project overview">
+                    <img src="./assets/space_header.svg" alt="project overview">
+                <div class="project-card-text">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, deserunt! A eveniet consequatur cum odit omnis modi non voluptate, provident debitis, id natus, facilis officiis nisi explicabo! Autem, alias rerum.</p>
+                    <img src="./assets/github-link.svg" alt="">
+                    <img src="./assets/live-link.svg" alt="">
                 </div>
-                <div class="project-card-details">
-                    <img src="./github-link.svg" alt="">
-                    <img src="./live-link.svg" alt="">
                 </div>
+                <div class="project-card">
+                    <img src="./assets/space_header.svg" alt="" />
+                    <div class="project-card-text">
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus
+                        exercitationem sunt quas itaque aperiam tenetur, eaque alias quisquam
+                        nobis unde deleniti explicabo omnis eveniet expedita quasi suscipit id
+                        atque delectus.
+                      </p>
+                      <img src="./assets/github-link.svg" alt="" />
+                      <img src="./assets/live-link.svg" alt="" />
+                    </div>
+                  </div>
             </div>
         </section>
-        <section id="Skills">
+        <section id="skills"><br><br><br><hr>
             <h1>My Skills</h1>
-            <div class="skillset">
+            <div id="skillset">
                 <h4>HTML</h4>
-                <h4>css</h4>
+                <h4>CSS</h4>
                 <h4>JavaScript</h4>
                 <h4>Bootstrap</h4>
+                <h4>React.JS</h4>
+                <h4>Angular.JS</h4>
+                <h4>Node.JS</h4>
+                <h4>MYSQL</h4>
+                <h4>Mongo.DB</h4>
+                <h4>Git/GitHub</h4>
             </div>
         </section>
-        <section id="contact-form">
-            <form action="">This is Contact Form</form>
-        </section>
-        <section id="contact-details">
-            <h5>Social Information</h5>
-            <h5>Contact Information</h5>
-        </section>
+        <section id="contact"><hr><br><br><br>
+            <h3>Contact us</h3>
+            <form action="">This is Contact Form <hr>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name"name="name">
+                </div>
+                <div>
+                    <label for="phone">Phone No. :</label>
+                    <input type="tel" id="phone"name="phone">
+                </div>
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email"name="email">
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message"name="name" rows="5"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="tertiary">Submit</button>
+                </div>
+            </form>
+        </section><hr>
+        <footer id="footer">
+            <div class="socials">
+                <h5>Social</h5>
+                <a href="https://github.com/MANAVGATHIBANDHE">
+                    <img src="./assets/github-socials.svg" alt="">
+                </a>
+                <a href="https://www.linkedin.com/in/manav-gathibandhe-7682a923a/">
+                    <img src="./assets/linkedin-socials.svg" alt="">
+                </a>
+            </div>
+            <div class="address">
+                <h5>Contact Information</h5>
+                <b>Manav Gathibandhe</b><em> manavrg510@gmail.com</em>
+                Lecturely.com
+            </div>
+        </footer><hr>
     </div>
 </body>
 </html>

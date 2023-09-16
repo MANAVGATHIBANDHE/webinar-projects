@@ -1,0 +1,20 @@
+footer {
+    height: 200px;
+    background-color: var(--secondary-color);
+    padding: 3rem 2rem;
+  }
+  
+  .socials {
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .address {
+    display: flex;
+    margin-top: 2rem;
+    color: var(--pitch-black);
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+  }
+  

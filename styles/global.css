@@ -1,0 +1,91 @@
+/* styles.css */
+
+:root {
+    --night-black: #1c0c1c;
+    --pitch-black: #180c14;
+    --primary-color: #612dbc;
+    --secondary-color: #66456a;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+    background-color: var(--pitch-black);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    overflow-x: hidden;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 40px;
+  }
+  
+  h2 {
+    color: #fff;
+    text-align: center;
+  }
+  
+  h3 {
+    font-weight: 100;
+  }
+  
+  h5 {
+    text-align: center;
+  }
+  
+  p {
+    text-align: start;
+  }
+  
+  /* BUTTON STYLES*/
+  
+  button {
+    padding: 0.8rem 1.5rem;
+    width: max-content;
+    border-radius: 2.5rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    margin-right: 1rem;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  button.secondary {
+    border: solid white 1px;
+    background-color: transparent;
+  }
+  
+  button.secondary:hover {
+    opacity: 0.5;
+  }
+  
+  button.tertiary {
+    background-color: var(--secondary-color);
+  }
+  
+  button.tertiary:active {
+    box-shadow: 0 0 5px #f0f7f0, 0 0 5px #f0f7f0, 0 0 5px #f0f7f0, 0 0 5px #f0f7f0;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  

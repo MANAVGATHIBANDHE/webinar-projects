@@ -1,0 +1,36 @@
+#hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    @media (max-width: 800px) {
+      flex-direction: column-reverse;
+      align-items: end;
+      gap: 1rem;
+    }
+  }
+  
+  .hero-text {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    padding: 0.8rem;
+    @media (max-width: 800px) {
+      width: 90%;
+    }
+  }
+  
+  .hero-text h1 {
+    text-align: start;
+  }
+  
+  .illustration {
+    width: 36%;
+  }
+  
+  .illustration img {
+    width: 100%;
+    border-radius: 100px 100px 100px 100px;
+  }
+  

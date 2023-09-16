@@ -1,0 +1,40 @@
+nav {
+    overflow: hidden;
+    background-color:black;
+    position: fixed;
+    top:0 ;
+    width: 100%;
+  }
+nav{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    
+    @media (max-width: 800px) {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+        padding: 1rem;
+      }
+}
+
+nav img{
+    width: 150px;
+}
+nav ul{
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav li{
+    display: inline;
+    padding: 1.5rem;
+}
+nav a{
+    text-decoration: none;
+    color: #fb8460;
+}
+nav a:hover, a:active{
+    color: #fb4007;
+}
